@@ -255,3 +255,4 @@ This project provided hands-on experience using Windows networking tools and Pow
 ## Project 08 – Microsoft Entra ID & Microsoft 365 Administration
 
 The next project focuses on Microsoft Entra ID and Microsoft 365 administration, including user and group management, Microsoft 365 licensing, Exchange Online administration, Microsoft Teams management, Multi-Factor Authentication (MFA), Conditional Access, and identity management within cloud environments.
+<!-- Enterprise Networking project documentation -->
