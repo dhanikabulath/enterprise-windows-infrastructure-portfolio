@@ -209,3 +209,4 @@ This project demonstrates how PowerShell can automate repetitive Windows Server 
 ## Project 07 – Enterprise Networking & Troubleshooting
 
 The next project focuses on enterprise networking tools and troubleshooting techniques, including TCP/IP configuration, DNS and DHCP troubleshooting, SMB diagnostics, Windows Firewall management, Wireshark packet analysis, and Nmap network scanning.
+<!-- PowerShell Automation project documentation -->
