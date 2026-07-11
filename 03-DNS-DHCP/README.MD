@@ -225,3 +225,4 @@ This project provided hands-on experience implementing enterprise DHCP and DNS s
 ## Project 04 – Group Policy Management
 
 The next project focuses on implementing enterprise Group Policy Objects (GPOs), including password policies, desktop standardization, drive mapping, USB storage control, folder redirection, Windows Update management, and software restriction policies.
+<!-- DNS project documentation -->
