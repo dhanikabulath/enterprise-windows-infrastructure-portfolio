@@ -1,61 +1,8 @@
-# Enterprise Windows Infrastructure Lab
+# Enterprise Windows Infrastructure Portfolio
 
-> A hands-on enterprise Windows infrastructure lab built using Microsoft Azure, Windows Server 2022, Active Directory, PowerShell, and enterprise networking technologies.
+A hands-on enterprise Windows infrastructure portfolio demonstrating practical experience with Microsoft Azure, Windows Server 2022, Active Directory, enterprise networking, automation, security, and troubleshooting.
 
----
-
-## About This Repository
-
-This repository documents my journey of building a complete enterprise Windows infrastructure from the ground up. Rather than completing isolated labs, each project builds upon the previous one to create a realistic enterprise environment similar to what is deployed in modern organizations.
-
-The primary objective is to gain practical experience with Windows Server administration, Microsoft Azure, Active Directory, enterprise networking, automation with PowerShell, and real-world troubleshooting while documenting each implementation professionally.
-
----
-
-# Learning Objectives
-
-- Deploy enterprise infrastructure in Microsoft Azure
-- Administer Windows Server 2022
-- Implement Active Directory Domain Services (AD DS)
-- Configure DNS and DHCP services
-- Manage Group Policy Objects (GPO)
-- Deploy enterprise file services
-- Automate administration with PowerShell
-- Build enterprise networking knowledge
-- Develop troubleshooting methodologies
-- Document infrastructure using Git and GitHub
-
----
-
-# Project Roadmap
-
-| Project | Status |
-|----------|--------|
-| ✅ Project 01 – Azure Infrastructure | Complete |
-| 🚧 Project 02 – Enterprise Active Directory | In Progress |
-| ⏳ Project 03 – DNS & DHCP | Planned |
-| ⏳ Project 04 – Group Policy Management | Planned |
-| ⏳ Project 05 – File Services | Planned |
-| ⏳ Project 06 – Windows 11 Enterprise Administration | Planned |
-| ⏳ Project 07 – PowerShell Automation | Planned |
-| ⏳ Project 08 – Enterprise Networking | Planned |
-| ⏳ Project 09 – Enterprise Troubleshooting | Planned |
-
----
-
-# Projects
-
-| Project | Description |
-|----------|-------------|
-| [Project 01 – Azure Infrastructure](./01-Azure-Infrastructure/) | Deploy Azure Resource Groups, Virtual Networks, Network Security Groups, and Windows Server 2022. |
-| Project 02 – Enterprise Active Directory | Build an enterprise Active Directory environment with Organizational Units, users, groups, DNS integration, home folders, and PowerShell automation. |
-| Project 03 – DNS & DHCP | Configure enterprise DNS zones, DHCP scopes, reservations, leases, and troubleshooting. |
-| Project 04 – Group Policy Management | Implement password policies, drive mappings, folder redirection, Windows Update policies, and security settings. |
-| Project 05 – File Services | Deploy SMB shares, configure NTFS permissions, Access-Based Enumeration, and enterprise file sharing. |
-| Project 06 – Windows 11 Enterprise Administration | Manage enterprise Windows clients including BitLocker, Defender, Services, Registry, and Remote Desktop. |
-| Project 07 – PowerShell Automation | Automate Active Directory administration, reporting, password resets, and scheduled tasks. |
-| Project 08 – Enterprise Networking | Explore TCP/IP, DNS, DHCP, VLANs, VPNs, Wireshark, Nmap, and network troubleshooting. |
-| Project 09 – Enterprise Troubleshooting | Diagnose and resolve common enterprise issues including DNS failures, Group Policy problems, RDP issues, profile corruption, Windows Update failures, and network connectivity problems. |
+This repository was built to simulate real-world enterprise IT administration tasks and document practical implementations suitable for IT Support, Systems Administration, and future Security Operations (SOC) roles.
 
 ---
 
@@ -63,17 +10,16 @@ The primary objective is to gain practical experience with Windows Server admini
 
 - Microsoft Azure
 - Windows Server 2022
-- Windows 11 Enterprise
-- Active Directory Domain Services (AD DS)
+- Active Directory Domain Services
 - DNS
 - DHCP
 - Group Policy
 - SMB File Services
 - PowerShell
-- Microsoft Entra ID
-- Microsoft 365
-- Wireshark
-- Nmap
+- Windows Defender
+- Windows Firewall
+- Windows Security
+- Event Viewer
 - Git
 - GitHub
 
@@ -81,45 +27,88 @@ The primary objective is to gain practical experience with Windows Server admini
 
 # Skills Demonstrated
 
-- Windows Server Administration
-- Cloud Infrastructure Deployment
-- Identity and Access Management
-- Enterprise Networking
-- Infrastructure Automation
-- PowerShell Scripting
-- Technical Documentation
-- Enterprise Troubleshooting
+- Deploy enterprise infrastructure in Microsoft Azure
+- Install and configure Active Directory Domain Services
+- Configure enterprise DNS and DHCP
+- Implement Group Policy Objects (GPOs)
+- Configure enterprise SMB file services
+- Automate administration using PowerShell
+- Configure enterprise networking services
+- Perform Windows Server troubleshooting
+- Implement Windows Server security hardening
+- Document enterprise infrastructure using Git and GitHub
+
+---
+
+# Project Portfolio
+
+| Project | Description | Status |
+|----------|-------------|:------:|
+| ✅ Project 01 – Azure Infrastructure | Deploy enterprise infrastructure in Microsoft Azure | Complete |
+| ✅ Project 02 – Enterprise Active Directory | Deploy and administer Active Directory Domain Services | Complete |
+| ✅ Project 03 – Enterprise DNS & DHCP | Configure enterprise name resolution and IP address management | Complete |
+| ✅ Project 04 – Group Policy Management | Implement and manage enterprise Group Policy Objects | Complete |
+| ✅ Project 05 – Enterprise File Services | Configure SMB shares, NTFS permissions, quotas and storage management | Complete |
+| ✅ Project 06 – PowerShell Automation | Automate Windows administration tasks using PowerShell | Complete |
+| ✅ Project 07 – Enterprise Networking | Configure and validate enterprise networking services | Complete |
+| ✅ Project 08 – Enterprise Troubleshooting | Diagnose and resolve common Windows Server issues | Complete |
+| ✅ Project 09 – Windows Server Security Hardening | Configure and validate enterprise security controls | Complete |
 
 ---
 
 # Repository Structure
 
 ```text
-enterprise-windows-infrastructure-lab
-│
-├── README.md
+enterprise-windows-infrastructure-portfolio
 │
 ├── 01-Azure-Infrastructure
 ├── 02-Enterprise-Active-Directory
 ├── 03-DNS-DHCP
 ├── 04-Group-Policy
-├── 05-File-Services
-├── 06-Windows11-Enterprise
-├── 07-PowerShell-Automation
-├── 08-Networking
-└── 09-Enterprise-Troubleshooting
+├── 05-Enterprise-File-Services
+├── 06-PowerShell-Automation
+├── 07-Enterprise-Networking
+├── 08-Enterprise-Troubleshooting
+└── 09-Windows-Server-Security-Hardening
 ```
 
 ---
 
-# Author
+# Learning Outcomes
 
-**Dhanika Bulathsinhala**
+Through this portfolio I developed practical experience in:
 
-IT Support Engineer | Windows Infrastructure | Microsoft Azure | Active Directory | PowerShell
+- Enterprise Windows Server administration
+- Active Directory management
+- Network infrastructure services
+- Windows security configuration
+- Infrastructure automation
+- Enterprise troubleshooting methodologies
+- Technical documentation using Git and GitHub
 
 ---
 
-## Disclaimer
+# Next Repository
 
-This repository is intended for educational and professional portfolio purposes. The environment is built in a lab setting using Microsoft Azure and Windows Server to simulate enterprise IT infrastructure and administration tasks.
+The next repository in this portfolio series is:
+
+## Enterprise Network Analysis Lab
+
+Topics include:
+
+- Wireshark
+- Nmap
+- TCP/IP Analysis
+- DNS Packet Analysis
+- DHCP Packet Analysis
+- HTTP & HTTPS
+- SMB Traffic Analysis
+- ICMP
+- RDP Traffic
+- Enterprise Network Troubleshooting
+
+---
+
+# Career Objective
+
+This portfolio supports my transition into an Enterprise IT Support role while building practical experience for future specialization in Security Operations (SOC), Microsoft Cloud, and Enterprise Security.
